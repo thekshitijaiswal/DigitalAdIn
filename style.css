@@ -148,6 +148,8 @@ p {
 .how-it-work {
   margin-top: 90px;
   padding-inline: 12px;
+  padding-bottom: 40px;
+  background-color: #448c7479;
 }
 .how-it-work h1 span {
   background-color: #cc4f00;
@@ -159,6 +161,7 @@ p {
 .how-it-work h1 {
   font-size: 24px;
   text-align: center;
+  padding-top: 40px;
 }
 
 .how-to-work-details {
@@ -197,8 +200,7 @@ p {
 
 section {
   display: flex;
-  max-width: 1200px;
-  margin-inline: auto;
+  justify-content: center;
   margin-top: 140px;
   gap: 24px;
   padding-inline: 12px;
@@ -357,6 +359,7 @@ section img {
 }
 
 .service-title h2 {
+  color:#d97706;
   font-size: 36px;
   font-weight: 600;
 }
@@ -367,12 +370,6 @@ section img {
   color: 313131;
 }
 
-.service-title span {
-  background-color: #ff5722;
-  color: white;
-  padding: 8px 4px;
-  border-radius: 48%;
-}
 
 .service-card-container {
   display: flex;
@@ -656,6 +653,10 @@ footer p {
     margin-left: 40px;
   }
 
+  .banner-content {
+    text-align: center;
+  }
+
   .title p {
     font-size: 28px;
   }
@@ -667,20 +668,13 @@ footer p {
     font-weight: 800;
   }
 
-  .banner-p1 {
-    font-size: 18px;
-  }
-
-  .banner-p2 {
-    font-size: 28px;
-  }
-
   .banner-img img {
     width: 300px;
   }
 
   .button {
-    padding: 13px 28px;
+    padding: 15px 26px;
+    margin-inline: auto;
   }
 
   section {
@@ -869,6 +863,10 @@ footer p {
   .question-container {
     flex-wrap: wrap;
     padding-block: 40px;
+  }
+
+  .service-card {
+    max-width: 100%;
   }
 
   .question-title img {
