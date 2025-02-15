@@ -781,6 +781,10 @@ footer p {
     font-size: 20px;
   }
 
+  .banner-img img {
+    margin-top: -80px;
+  }
+
   .title {
     margin-block: 10px;
   }
@@ -821,10 +825,9 @@ footer p {
     font-size: 36px;
   }
 
-  
-.how-to-work-details p {
-  text-align: center;
-}
+  .how-to-work-details p {
+    text-align: center;
+  }
 
   .screen-template {
     margin-top: 50px;
