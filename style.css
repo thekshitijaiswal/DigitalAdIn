@@ -180,7 +180,7 @@ nav a + a {
 .how-to-work-details p {
   font-size: 20px;
   color: #374151;
-  text-align: center;
+  text-align: justify;
   margin-inline: auto;
 }
 
@@ -820,6 +820,11 @@ footer p {
   .how-it-work h1 {
     font-size: 36px;
   }
+
+  
+.how-to-work-details p {
+  text-align: center;
+}
 
   .screen-template {
     margin-top: 50px;
