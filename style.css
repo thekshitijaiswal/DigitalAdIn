@@ -129,20 +129,17 @@ nav a + a {
   background-color: #f9f2ed;
 }
 
-.card h3,
-p {
-  margin: 0;
-}
-
 .card h3 {
   font-size: 28px;
   margin-bottom: 15px;
+  margin: 0;
 }
 
 .card p {
   color: #115991;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
+  margin: 0;
 }
 
 .how-it-work {
@@ -181,7 +178,7 @@ p {
 }
 
 .how-to-work-details p {
-  font-size: 18px;
+  font-size: 20px;
   color: #374151;
   text-align: justify;
   margin-inline: auto;
@@ -359,7 +356,7 @@ section img {
 }
 
 .service-title h2 {
-  color:#d97706;
+  color: #d97706;
   font-size: 36px;
   font-weight: 600;
 }
@@ -367,9 +364,8 @@ section img {
 .service-title p {
   font-size: 15px;
   font-weight: 400;
-  color: 313131;
+  color: #313131;
 }
-
 
 .service-card-container {
   display: flex;
@@ -669,7 +665,7 @@ footer p {
   }
 
   .banner-img img {
-    width: 300px;
+    width: 360px;
   }
 
   .button {
@@ -740,6 +736,7 @@ footer p {
 
   .header-content {
     overflow: hidden;
+    margin-bottom: 20px;
   }
 
   nav {
@@ -777,7 +774,11 @@ footer p {
   }
 
   .banner-content {
-    margin-block: 20px;
+    margin-block: 30px;
+  }
+
+  .banner-content p {
+    font-size: 20px;
   }
 
   .title {
@@ -785,11 +786,11 @@ footer p {
   }
 
   .title p {
-    font-size: 18px;
+    font-size: 29px;
   }
 
   .title h1 {
-    font-size: 23px;
+    margin-bottom: 16px;
   }
 
   .banner-p1,
@@ -798,7 +799,6 @@ footer p {
   }
 
   .button {
-    margin-block: 20px;
     padding: 15px 26px;
   }
 
@@ -807,9 +807,40 @@ footer p {
     justify-content: center;
   }
 
+  .card {
+    max-width: 360px;
+    width: 100%;
+    padding: 29px 22px;
+  }
+
+  .card p {
+    font-size: 30px;
+  }
+
+  .how-it-work h1 {
+    font-size: 36px;
+  }
+
   .screen-template {
     margin-top: 50px;
     flex-wrap: wrap;
+  }
+
+  .screen-template img {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .service-card i {
+    font-size: 50px;
+  }
+
+  .service-card h6 {
+    font-size: 28px;
+  }
+
+  .service-card p {
+    font-size: 20px;
   }
 
   .business-solution {
@@ -838,6 +869,13 @@ footer p {
     padding-inline: 0;
   }
 
+  .how-to-work-details a {
+    padding: 15px 23px;
+    max-width: 200px;
+    margin-inline: auto;
+    font-size: 20px;
+  }
+
   .advanced-feature {
     margin-top: 50px;
   }
@@ -849,7 +887,11 @@ footer p {
   }
 
   .advanced-title-container p {
-    font-size: 12px;
+    font-size: 20px;
+  }
+
+  .service-title p {
+    font-size: 20px;
   }
 
   .advanced-title {
